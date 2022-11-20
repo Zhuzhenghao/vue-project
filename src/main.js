@@ -14,3 +14,5 @@ app.use(router)
 app.mount('#app')
 
 console.log('main.js');
+
+console.log('main.js 2');
