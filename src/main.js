@@ -1,19 +1,21 @@
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+import { createApp } from "vue";
+import { createPinia } from "pinia";
 
-import App from './App.vue'
-import router from './router'
+import App from "./App.vue";
+import router from "./router";
 
-import './assets/main.css'
+import "./assets/main.css";
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.use(createPinia())
-app.use(router)
+app.use(createPinia());
+app.use(router);
 
-app.mount('#app')
+app.mount("#app");
 
-console.log('main.js');
+console.log("main.js");
 
-console.log('main.js 2');
-console.log('add from v1 branch');
+console.log("main.js 2");
+console.log("add from v1 branch");
+
+console.log("change form main branch");
